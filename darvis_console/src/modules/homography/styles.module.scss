@@ -1,0 +1,30 @@
+.blue {
+  color: #1d71b8;
+}
+
+.plan_floor_height {
+  height: 500px;
+}
+.plan_camera_height {
+  height: 500px;
+}
+
+.camera_plan {
+  bottom:0;
+  position: absolute;
+}
+
+.points {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.point_header {
+  font-size: 1.3rem;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+}

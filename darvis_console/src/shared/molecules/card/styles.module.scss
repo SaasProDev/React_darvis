@@ -1,0 +1,36 @@
+$transparent-grey: rgba(209, 206, 206, 0.548);
+
+.card {
+  box-shadow: 2px 5px 10px lighten(lightgray, 10%);
+  border: 0;
+}
+
+.dark {
+  background: #343a40;
+  color: lighten(lightgrey, 5%);
+
+  .online-status {
+    color: #8ce207;
+    font-size: 30px;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+  }
+
+  header {
+    padding-bottom: 5px;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid $transparent-grey;
+
+    span {
+      color: $transparent-grey;
+    }
+  }
+}
+
+.cardHeader {
+  padding: 1.5rem;
+  background-color: white;
+  font-size: 1.25rem;
+  border-bottom: 1px solid rgba(165, 163, 163, 0.125);
+}

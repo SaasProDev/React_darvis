@@ -1,0 +1,28 @@
+.dar-navbar {
+  background: white;
+  box-shadow: 0 1px 1.3rem lightgrey;
+  margin-bottom: 3rem;
+
+  nav {
+    padding: 0.8rem 1rem;
+  }
+
+  &__logo {
+    width: 11rem;
+    margin-right: 5rem;
+  }
+
+  &__item {
+    margin: 0 1rem;
+  }
+
+  .info {
+    margin-right: 10px;
+    text-transform: capitalize;
+  }
+
+  .dropdown {
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
