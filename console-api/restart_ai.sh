@@ -1,0 +1,1 @@
+cd /home/sysgen/workstation/ai-healthcare; docker-compose stop; nohup docker-compose up --build > /dev/null 2>&1 &

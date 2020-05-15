@@ -1,0 +1,9 @@
+version: "3.2"
+
+services:
+  darvis:
+    build:
+      context: .
+      dockerfile: ./docker/node/Dockerfile
+    ports:
+      - 3000:3000

@@ -1,0 +1,34 @@
+.grey-card {
+  margin-bottom: -10px;
+  .table td,
+  .table th {
+    border-top: 0;
+    padding: 0.25rem;
+  }
+
+  font-size: 0.9rem;
+
+  &__table {
+    width: 100%;
+  }
+
+  &__cell {
+    &--1 {
+      width: 40%;
+    }
+
+    tr {
+      background: lighten(#343a40, 5%);
+      border-bottom: 3px solid #343a40;
+    }
+  }
+}
+
+.color {
+  &--lightgrey {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  &--green {
+    color: #8ce207;
+  }
+}

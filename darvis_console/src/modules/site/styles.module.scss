@@ -1,0 +1,51 @@
+.points {
+  position: absolute;
+  bottom: 15px;
+}
+.level {
+  background:transparent;
+}
+.level_number {
+  background: transparent;
+  text-align: right;
+}
+.times {
+  color: #fcc89a;
+}
+.levelIcons {
+  float: right;
+}
+.blue {
+  color: #1d71b8;
+}
+
+.plan_height {
+  height: 500px;
+}
+
+.gray {
+  background-color: #e5e5e5;
+}
+
+.number {
+  //background: #fbfbfc;
+  background: transparent;
+  text-align: right;
+}
+
+.editButton {
+  color: #4586e7;
+  margin-right: 5px;
+  font-size: 1rem;
+  &:hover {
+    color: #1359c3;
+  }
+}
+
+.trashButton {
+  color: #f35656;
+  font-size: 1rem;
+  &:hover {
+    color: #ff0056
+  }
+}
